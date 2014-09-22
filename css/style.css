@@ -1,17 +1,16 @@
 /* Sass Document */
-
 /* Avoid problems */
 html, body, .site, .front-page {
-	height: 100%;
-	margin: 0;
-	padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Position the content */
 .content {
-	position: absolute;
-	top: 35%;
-	width: 100%;
+  position: absolute;
+  top: 35%;
+  width: 100%;
 }
 
 /* Front Page */
@@ -24,6 +23,9 @@ h1.name {
   font-size: 43px;
   margin: 0px;
   padding: 0 0 15px 0;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .short-border {
@@ -37,20 +39,27 @@ h1.name {
   font-size: 16px;
   margin-bottom: 35px;
   text-transform: uppercase;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: italic;
+  font-weight: 500;
 }
 
 .nav-button {
   display: inline-block;
-  border: 2px solid black;
+  border: 2px solid #2c3e50;
   padding: 8px 18px;
 }
 .nav-button:hover {
   cursor: pointer;
 }
-.nav-button:not(:last-child) {
+.nav-button:not(:first-child) {
   margin-right: 10px;
 }
 .nav-button .nav-button-text {
   text-transform: uppercase;
+  color: #2c3e50;
   font-size: 16px;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
