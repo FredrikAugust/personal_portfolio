@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-    	<!-- Scripts for adobe typekit fonts -->
+    	<!-- Scripts for adobe typekit fonts 
     	<script src="//use.typekit.net/fgc6foa.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
+		<script>try{Typekit.load();}catch(e){}</script>-->
 		<meta charset="utf-8">
 		<title>MrMadsenMalmo</title>
         <link href="css/style.css" rel="stylesheet">

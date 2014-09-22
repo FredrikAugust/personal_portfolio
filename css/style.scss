@@ -21,6 +21,7 @@ html, body, .site, .front-page {
 h1.name {
 	text-transform:uppercase;
 	font-size:43px;
+	color: #2c3e50;
 	margin: 0px;
 	padding: 0 0 15px 0;
 	font-family: "brandon-grotesque",sans-serif;
@@ -40,14 +41,21 @@ h1.name {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: italic;
 	font-weight: 500;
+	color: #2c3e50;
 }
 .nav-button {
 	display:inline-block;
 	border: 2px solid #2c3e50;
 	padding: 8px 18px;
+	transition: background-color 0.5s;
 	
 	&:hover {
 		cursor:pointer;
+		background-color:#2c3e50;
+		
+		.nav-button-text {
+			color: #ecf0f1;
+		}
 	}
 	
 	&:not(:first-child) {
@@ -61,5 +69,6 @@ h1.name {
 		font-family: "brandon-grotesque",sans-serif;
 		font-style: normal;
 		font-weight: 500;
+		transition: color 0.5s;
 	}
 }
