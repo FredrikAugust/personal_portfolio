@@ -9,17 +9,17 @@
     	<div class="site">
         	<div class="front-page">
             	<div class="content">
-                	<h1 class="name">Fredrik A. Madsen-Malmo</h1>
+                	<h1 class="name raleway-bold">Fredrik A. Madsen-Malmo</h1>
                     <div class="short-border"></div>
-                    <h3>Web Designer &amp; Developer</h3>
+                    <h3 class="title raleway-light">Web Designer &amp; Developer</h3>
                     <div class="nav-button">
-                    	<span class="nav-button-text">Work</span>
+                    	<span class="nav-button-text raleway-light">Work</span>
                     </div>
                     <div class="nav-button">
-                    	<span class="nav-button-text">About</span>
+                    	<span class="nav-button-text raleway-light">About</span>
                     </div>
                     <div class="nav-button">
-                    	<span class="nav-button-text">Contact</span>
+                    	<span class="nav-button-text raleway-light">Contact</span>
                     </div>
                 </div>
             </div>
