@@ -1,4 +1,19 @@
 /* Sass Document */
+
+/* Avoid problems */
+html, body, .site, .front-page {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Position the content */
+.content {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+}
+
 /* Front Page */
 .front-page {
   text-align: center;
@@ -32,7 +47,7 @@ h1.name {
 .nav-button:hover {
   cursor: pointer;
 }
-.nav-button:not(:first-child) {
+.nav-button:not(:last-child) {
   margin-right: 10px;
 }
 .nav-button .nav-button-text {
