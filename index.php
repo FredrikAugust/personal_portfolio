@@ -17,15 +17,15 @@
                 <div class="nav-button">
                     <span class="nav-button-text">Work</span>
                 </div>
-                <div class="nav-button">
+                <a href="#about"><div class="nav-button">
                     <span class="nav-button-text">About</span>
-                </div>
+                </div></a>
                 <div class="nav-button">
                     <span class="nav-button-text">Contact</span>
                 </div>
             </div>
         </div>
-        <div class="center site">
+        <div class="center site" id="about">
             <div class="content2">
                 <h1 class="about">About Me</h1>
                 <div class="short-border"></div>

@@ -69,6 +69,7 @@ h1.name {
 	border: 2px solid #2c3e50;
 	padding: 8px 18px;
 	transition: background-color 0.5s;
+	margin: 0 5px;
 	
 	&:hover {
 		cursor:pointer;
@@ -77,10 +78,6 @@ h1.name {
 		.nav-button-text {
 			color: #ecf0f1;
 		}
-	}
-	
-	&:not(:first-child) {
-		margin-right: 10px;
 	}
 	
 	.nav-button-text {
