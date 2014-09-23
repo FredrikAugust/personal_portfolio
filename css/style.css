@@ -26,6 +26,13 @@ html, body, .site, .front-page {
   width: 100%;
 }
 
+/* Position the content */
+.content2 {
+  position: absolute;
+  top: 130%;
+  width: 100%;
+}
+
 /* Extra */
 .short-border {
   width: 85px;
@@ -99,7 +106,7 @@ h1.about {
 }
 
 .about-info {
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
 }
 .about-info img {
@@ -118,4 +125,8 @@ h1.about {
   margin-top: 0;
   padding-top: 0;
   text-align: justify;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
 }
