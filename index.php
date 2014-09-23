@@ -9,8 +9,8 @@
         <link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-        <div class="front-page site">
-            <div class="content">
+        <div class="center site">
+            <div class="content1">
                 <h1 class="name">Fredrik A. Madsen-Malmo</h1>
                 <div class="short-border"></div>
                 <h3 class="title">Web Designer &amp; Developer</h3>
