@@ -29,7 +29,7 @@ html, body, .site, .front-page {
 /* Position the content */
 .content2 {
   position: absolute;
-  top: 130%;
+  top: 125%;
   width: 100%;
 }
 
@@ -72,6 +72,7 @@ h1.name {
   border: 2px solid #2c3e50;
   padding: 8px 18px;
   transition: background-color 0.5s;
+  margin: 0 5px;
 }
 .nav-button:hover {
   cursor: pointer;
@@ -79,9 +80,6 @@ h1.name {
 }
 .nav-button:hover .nav-button-text {
   color: #ecf0f1;
-}
-.nav-button:not(:first-child) {
-  margin-right: 10px;
 }
 .nav-button .nav-button-text {
   text-transform: uppercase;
@@ -107,10 +105,11 @@ h1.about {
 
 .about-info {
   width: 40%;
-  margin: 0 auto;
+  margin: 20px auto 25px 0;
 }
 .about-info img {
   width: 47.5%;
+  max-height: 258px;
   margin-right: 2.5%;
   float: left;
   height: 100%;
@@ -127,6 +126,16 @@ h1.about {
   text-align: justify;
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.contact-icons img {
+  width: 42px;
+  height: 42px;
+  margin: 20px 10px 0 10px;
+}
+
+.content2 .short-border {
+  margin-bottom: 7px;
 }
