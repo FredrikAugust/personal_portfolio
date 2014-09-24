@@ -126,6 +126,7 @@ h1.about {
   text-align: justify;
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
+  font-size: 16px;
   font-weight: 300;
   line-height: 26px;
 }
@@ -138,4 +139,39 @@ h1.about {
 
 .content2 .short-border {
   margin-bottom: 7px;
+}
+
+/* Media queries */
+@media screen and (max-width: 1300px) {
+  .content2 {
+    top: 120%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .about-info {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .content2 {
+    top: 115%;
+    margin-bottom: 20px;
+  }
+
+  .about-info img {
+    margin: 0 0 20px 0;
+    float: none;
+    width: 60%;
+  }
+  .about-info div {
+    margin: 0 auto;
+    float: none;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 789px) {
+  .content2 {
+    top: 110%;
+    margin-bottom: 20px;
+  }
 }
