@@ -33,6 +33,13 @@ html, body, .site, .front-page {
   width: 100%;
 }
 
+/* Position the content */
+.content3 {
+  position: absolute;
+  top: 230%;
+  width: 100%;
+}
+
 /* Extra */
 .short-border {
   width: 85px;

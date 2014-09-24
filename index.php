@@ -14,9 +14,9 @@
                 <h1 class="name">Fredrik A. Madsen-Malmo</h1>
                 <div class="short-border"></div>
                 <h3 class="title">Web Designer &amp; Developer</h3>
-                <div class="nav-button">
+                <!--<div class="nav-button">
                     <span class="nav-button-text">Work</span>
-                </div>
+                </div>-->
                 <a href="#about"><div class="nav-button">
                     <span class="nav-button-text">About</span>
                 </div></a>
@@ -42,6 +42,18 @@
                     <a href="#"><img src="http://placehold.it/40x40"></a><!-- GitHub -->
                     <a href="#"><img src="http://placehold.it/40x40"></a><!-- Mail -->
                 </div>
+            </div>
+        </div>
+        <div class="center site" id="about">
+            <div class="content3">
+                <h1 class="about">Contact</h1>
+                <div class="short-border"></div>
+                <form method="post" action="index.php">
+                	<input type="text" placeholder="Enter name.." name="name">
+                    <input type="email" placeholder="Enter email.." name="email">
+                    <textarea name="message" placeholder="Enter message.." name="message"></textarea>
+                    <button type="submit" name="submit">SEND</button>
+                </form>
             </div>
         </div>
     </body>
