@@ -198,10 +198,18 @@ form button {
   .about-info {
     width: 50%;
   }
+
+  .content3 {
+    top: 220%;
+  }
 }
 @media screen and (max-width: 1000px) {
   .content2 {
     top: 126%;
+  }
+
+  .content3 {
+    top: 225%;
   }
 
   .about-info img {
