@@ -73,10 +73,12 @@ h1.name {
 }
 .nav-button {
 	display:inline-block;
-	border: 2px solid #2c3e50;
+	border: 2px solid #34495e;
 	padding: 8px 18px;
 	transition: background-color 0.5s;
 	margin: 0 5px;
+	width: 74px;
+	text-align:center;
 	
 	&:hover {
 		cursor:pointer;
@@ -184,8 +186,16 @@ form button {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 500;
+	transition: background 0.5s, color 0.5s;
+	
+	&:hover {
+		cursor: pointer;
+		border: 2px solid #2c3e50;
+		background: white;
+		color: #2c3e50;
+	}
 }
-
+	
 /* Media queries */
 @media screen and (max-width:1600px) {
 	.content2 {
