@@ -20,9 +20,9 @@
                 <a href="#about"><div class="nav-button">
                     <span class="nav-button-text">About</span>
                 </div></a>
-                <div class="nav-button">
+                <a href="#contact"><div class="nav-button">
                     <span class="nav-button-text">Contact</span>
-                </div>
+                </div></a>
             </div>
         </div>
         <div class="center site" id="about">
@@ -44,15 +44,15 @@
                 </div>
             </div>
         </div>
-        <div class="center site" id="about">
+        <div class="center site" id="contact">
             <div class="content3">
                 <h1 class="about">Contact</h1>
                 <div class="short-border"></div>
                 <form method="post" action="index.php">
-                	<input type="text" placeholder="Enter name.." name="name">
-                    <input type="email" placeholder="Enter email.." name="email">
-                    <textarea name="message" placeholder="Enter message.." name="message"></textarea>
-                    <button type="submit" name="submit">SEND</button>
+                	<input type="text" placeholder="Enter name.." name="name" id ="name">
+                    <input type="email" placeholder="Enter email.." name="email" id="email">
+                    <input name="message" placeholder="Enter message.." name="message" id="message">
+                    <button type="submit" name="submit"><span class="submit">Submit</span></button>
                 </form>
             </div>
         </div>

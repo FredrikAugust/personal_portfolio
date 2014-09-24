@@ -36,7 +36,7 @@ html, body, .site, .front-page {
 /* Position the content */
 .content3 {
 	position: absolute;
-	top: 230%;
+	top: 225%;
 	width: 100%;
 }
 
@@ -145,6 +145,45 @@ h1.about {
 }
 .content2 .short-border {
 	margin-bottom:7px;
+}
+
+/* Contact */
+form {
+	margin-top: 50px;
+}
+form input, form button {
+	display: block;
+	width: 40%;
+	margin: 0 auto 15px auto;
+}
+form input {
+	color: #2c3e50;
+	height: 20px;
+	outline: 0;
+	border: 2px solid #bdc3c7;
+	padding: 8px;
+	font-size:16px;
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	
+	&#message {
+		padding-bottom: 100px;
+	}
+}
+form button {
+	color: #FFF;
+	width: 41%;
+	height: 48px;
+	background:#2c3e50;
+	outline: 0;
+	padding: 8px;
+	border: 0;
+	margin: 40px auto 0 auto;
+	font-size:16px;
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 500;
 }
 
 /* Media queries */
