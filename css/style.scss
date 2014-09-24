@@ -29,7 +29,7 @@ html, body, .site, .front-page {
 /* Position the content */
 .content2 {
 	position: absolute;
-	top: 125%;
+	top: 130%;
 	width: 100%;
 }
 
@@ -141,21 +141,17 @@ h1.about {
 }
 
 /* Media queries */
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1600px) {
 	.content2 {
 		top: 120%;
 	}
-}
-
-@media screen and (max-width:1600px) {
 	.about-info {
 		width: 50%;
 	}
 }
 @media screen and (max-width:1000px) {
 	.content2 {
-		top: 115%;
-		margin-bottom: 20px;
+		top: 126%;
 	}
 	.about-info {
 		img {
@@ -168,11 +164,5 @@ h1.about {
 			float: none;
 			width: 80%;
 		}
-	}
-}
-@media screen and (max-width:789px) {
-	.content2 {
-		top: 110%;
-		margin-bottom: 20px;
 	}
 }

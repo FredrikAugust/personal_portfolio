@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-    	<!-- Scripts for adobe typekit fonts 
+    	<!-- Scripts for adobe typekit fonts -->
     	<script src="//use.typekit.net/fgc6foa.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>-->
+		<script>try{Typekit.load();}catch(e){}</script>
 		<meta charset="utf-8">
 		<title>MrMadsenMalmo</title>
         <link href="css/style.css" rel="stylesheet">
@@ -32,7 +32,8 @@
                 <div class="about-info clearfix">
                 	<img src="http://placehold.it/420x258" alt="me-img">
                     <div class="about-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>I'm a 15 year old boy who likes to experiment with web design and development on my spare time. I'm currently studying at a high school in Norway. I began showing interest at the age of 13, and I've been working on improving my skills since then.</p>
+                        <p>If you want help on a project or need a basic website made, feel free to contact me using the form below.</p>
                     </div>
                 </div>
                 <div class="short-border"></div>
