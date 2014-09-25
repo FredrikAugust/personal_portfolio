@@ -63,6 +63,15 @@
 			$raw_name = $_POST["name"];
 			$raw_email = $_POST["email"];
 			$raw_message = $_POST["message"];
+			
+			$stmt = $mysqli->prepare("INSERT INTO messages VALUES ('NULL', " . $raw_name . ", " . $raw_email . ", " . $raw_message . ", NOW());");
+			$stmt->bind_param("s", $raw_name);
+			$stmt->bind_param("s", $raw_email);
+			$stmt->bind_param("s", $raw_message);
+			$stmt->execute();
+			$stmt->close();
+			
+			$conn->close();
 		?>
     </body>
 </html>
