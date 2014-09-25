@@ -32,7 +32,7 @@
                 <div class="about-info clearfix">
                 	<img src="http://placehold.it/420x258" alt="me-img">
                     <div class="about-text">
-                        <p>I'm a 15 year old boy who likes to experiment with web design and development on my spare time. I'm currently studying at a high school in Norway. I began showing interest at the age of 13, and I've been working on improving my skills since then.</p>
+                        <p>I'm a 15 year old boy who likes to experiment with web design and development on my spare time. I'm currently studying at a high school in Norway. I began showing interest in programming at the age of 13, and I've been working on improving my skills since.</p>
                         <p>If you want help on a project or need a basic website made, feel free to contact me using the form below.</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
             <div class="content3">
                 <h1 class="about">Contact</h1>
                 <div class="short-border"></div>
-                <form method="post" action="index.php">
+                <form method="post" action="index.php"> <!-- Going to move this over to a dedicated page later -->
                 	<input type="text" placeholder="Enter name.." name="name" id ="name">
                     <input type="email" placeholder="Enter email.." name="email" id="email">
                     <textarea name="message" placeholder="Enter message.." name="message" id="message"></textarea>
@@ -62,11 +62,9 @@
 			$raw_email = $_POST["email"];
 			$raw_message = $_POST["message"];
 			
-			if (isset($raw_name) && isset($raw_email)) { 
-				$subject = $raw_name . " <" . $raw_email . ">"; 
-			}
+			$subject = $raw_name . " <" . $raw_email . ">"; 
 
-			if(isset($raw_name) && isset($raw_email) && isset($raw_message)) {
+			if($raw_name != "" && $raw_email != "" && $raw_message != "") {
 				mail("email", $subject, $raw_message);
 			}	
 		?>
