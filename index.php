@@ -17,12 +17,12 @@
                 <!--<div class="nav-button">
                     <span class="nav-button-text">Work</span>
                 </div>-->
-                <a href="#about"><div class="nav-button">
+                <div class="nav-button" data-ref="#about">
                     <span class="nav-button-text">About</span>
-                </div></a>
-                <a href="#contact"><div class="nav-button">
+                </div>
+                <div class="nav-button" data-ref="#contact">
                     <span class="nav-button-text">Contact</span>
-                </div></a>
+                </div>
             </div>
         </div>
         <div class="center site" id="about">
@@ -68,5 +68,7 @@
 				mail("email", $subject, $raw_message);
 			}	
 		?>
+        <script src="jquery.js" type="application/javascript"></script>
+        <script src="script.js" type="application/javascript"></script>
     </body>
 </html>
