@@ -57,6 +57,8 @@
             </div>
         </div>
         
+        <img id="arrow" src="img/arrow-up2.png">
+        
         <?php
 			$raw_name = $_POST["name"];
 			$raw_email = $_POST["email"];
