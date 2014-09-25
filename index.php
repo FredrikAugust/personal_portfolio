@@ -38,9 +38,9 @@
                 </div>
                 <div class="short-border"></div>
                 <div class="contact-icons">
-                	<a href="#"><img src="http://placehold.it/40x40"></a><!-- Twitter -->
-                    <a href="#"><img src="http://placehold.it/40x40"></a><!-- GitHub -->
-                    <a href="#"><img src="http://placehold.it/40x40"></a><!-- Mail -->
+                    <a href="#"><img src="./img/fb.png"></a><!-- Facebook -->
+                	<a href="#"><img src="./img/tw.png"></a><!-- Twitter -->
+                    <a href="#"><img src="./img/gh.png"></a><!-- GitHub -->
                 </div>
             </div>
         </div>
