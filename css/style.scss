@@ -153,12 +153,15 @@ h1.about {
 form {
 	margin-top: 50px;
 }
-form input, form button {
+form input, form button, form textarea {
 	display: block;
 	width: 40%;
 	margin: 0 auto 15px auto;
 }
-form input {
+form textarea {
+	overflow: hidden;
+}
+form input, form textarea {
 	color: #2c3e50;
 	height: 20px;
 	outline: 0;

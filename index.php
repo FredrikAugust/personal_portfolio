@@ -51,7 +51,7 @@
                 <form method="post" action="index.php">
                 	<input type="text" placeholder="Enter name.." name="name" id ="name">
                     <input type="email" placeholder="Enter email.." name="email" id="email">
-                    <input name="message" placeholder="Enter message.." name="message" id="message">
+                    <textarea name="message" placeholder="Enter message.." name="message" id="message"></textarea>
                     <button type="submit" name="submit"><span class="submit">Submit</span></button>
                 </form>
             </div>
