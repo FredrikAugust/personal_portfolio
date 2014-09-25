@@ -59,6 +59,10 @@
         
         <?php
 			$conn = new mysqli("server", "username", "password", "database");
+			
+			$raw_name = $_POST["name"];
+			$raw_email = $_POST["email"];
+			$raw_message = $_POST["message"];
 		?>
     </body>
 </html>
