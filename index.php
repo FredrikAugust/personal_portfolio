@@ -56,5 +56,9 @@
                 </form>
             </div>
         </div>
+        
+        <?php
+			$conn = new mysqli("server", "username", "password", "database");
+		?>
     </body>
 </html>
