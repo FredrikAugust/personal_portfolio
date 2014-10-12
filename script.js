@@ -3,6 +3,11 @@
 // Hide the arrow that takes you to the top of the page
 $("#arrow").css("visibility", "hidden");
 
+// If the users browser is Opera
+if ($.browser.opera) {
+	$(".about-text").css("font-weight", "initial"); // Set the font-weight to the initial value
+}
+
 // When you click one of the navigation buttons
 $(".nav-button").click(function() {
 	var item1 = $(this).data("ref"); // Set the var item1 to the data-ref value of the clicked item
