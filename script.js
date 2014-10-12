@@ -4,8 +4,8 @@
 $("#arrow").css("visibility", "hidden");
 
 // If the users browser is Opera
-if ($.browser.opera) {
-	$(".about-text").css("font-weight", "initial"); // Set the font-weight to the initial value
+if (navigator.userAgent.indexOf("Opera")) {
+	$(".about-text p").css("font-weight", "initial"); // Set the font-weight to the initial value
 }
 
 // When you click one of the navigation buttons
