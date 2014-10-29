@@ -30,7 +30,7 @@
                 <h1 class="about">About Me</h1>
                 <div class="short-border"></div>
                 <div class="about-info clearfix">
-                	<img src="http://placehold.it/420x258" alt="me-img">
+                	<img src="/img/portrait.png" alt="Image of me.>
                     <div class="about-text">
                         <p>I'm a 15 year old boy who likes to experiment with web design and development on my spare time. I'm currently studying at a high school in Norway. I began showing interest in programming at the age of 13, and I've been working on improving my skills since.</p>
                         <p>If you want help on a project or need a basic website made, feel free to contact me using the form below.</p>
@@ -56,19 +56,19 @@
                 </form>
             </div>
         </div>
-        
+
         <img id="arrow" src="img/arrow-up2.png">
-        
+
         <?php
 			$raw_name = $_POST["name"];
 			$raw_email = $_POST["email"];
 			$raw_message = $_POST["message"];
-			
-			$subject = $raw_name . " <" . $raw_email . ">"; 
+
+			$subject = $raw_name . " <" . $raw_email . ">";
 
 			if($raw_name != "" && $raw_email != "" && $raw_message != "") {
 				mail("email", $subject, $raw_message);
-			}	
+			}
 		?>
         <script src="jquery.js" type="application/javascript"></script>
         <script src="script.js" type="application/javascript"></script>
