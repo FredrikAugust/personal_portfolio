@@ -7,6 +7,7 @@
 		<meta charset="utf-8">
 		<title>MrMadsenMalmo</title>
         <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="img/icon.ico">
 	</head>
 	<body>
         <div class="center site">
