@@ -5,6 +5,7 @@
     	<script src="//use.typekit.net/fgc6foa.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>MrMadsenMalmo</title>
         <link href="css/style.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="img/icon.png">
